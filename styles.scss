@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    grid: 1fr 6fr 1fr/ 1fr 4fr;
+    grid-gap: 10px;
+
+    & > * {
+        background-color: blue;
+    }
+}
